@@ -1,7 +1,7 @@
 const Mailgun = require('mailgun-js');
 const ss = require('secret-santa-generator');
 
-const users = require('./env/users.test.json');
+const users = require('./env/users.json');
 const mg_keys = require('./env/secrets.json');
 const body = require('./body');
 
