@@ -1,0 +1,15 @@
+{
+  "name": "secret_santa",
+  "version": "1.0.0",
+  "description": "Secret Santa picker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mailgun-js": "0.22.0",
+    "secret-santa-generator": "0.0.1"
+  }
+}
