@@ -2,15 +2,21 @@
 
 Uses mailgun module to send the mail.
 
+## Run
+
+```bash
+node ./index.js
+```
+
 ## Mail template
 
 The mail template is [here](./body.js).
 
-## How to use
+## Configure
 
 Create a `./env/secrets.json` and `./env/users.json`.
 
-### secrets.json
+### ./env/secrets.json
 
 ```json
 {
@@ -20,7 +26,7 @@ Create a `./env/secrets.json` and `./env/users.json`.
 }
 ```
 
-### users.json
+### ./env/users.json
 
 ```json
 [
@@ -33,10 +39,4 @@ Create a `./env/secrets.json` and `./env/users.json`.
         "email": "random2@email.com"
     },
 ]
-```
-
-### Run
-
-```bash
-node ./index.js
 ```
