@@ -15,7 +15,8 @@ Create a `./env/secrets.json` and `./env/users.json`.
 ```json
 {
     "mailgun_private": "key-xxxxxxxxxxxxxxxxxxxx",
-    "mailgun_public": "pubkey-xxxxxxxxxxxxxxxxxx"
+    "mailgun_public": "pubkey-xxxxxxxxxxxxxxxxxx",
+    "mailgun_domain": "my-domain.com"
 }
 ```
 

@@ -5,17 +5,17 @@ const users = require('./env/users.json');
 const mg_keys = require('./env/secrets.json');
 const body = require('./body');
 
-const DOMAIN = 'sacoch.es';
+const DOMAIN = mg_keys.mailgun_domain;
 const KEY = mg_keys.mailgun_private;
 
 const mailgun = new Mailgun({
     apiKey: KEY,
     domain: DOMAIN
 });
+
 const toSend = {
-    // from: 'Le Test du Père Noël 🎅 <le-test-du-papa-noel-secret@pole-nord.com>',
     from: 'Le Père Noël 🎅 <le-papa-noel-secret@pole-nord.com>',
-    to: 'yoann.moinet@gmail.com',
+    to: '',
     subject: '🙈 Tu es un Père Noël 🎅🤶 secret!'
 };
 
